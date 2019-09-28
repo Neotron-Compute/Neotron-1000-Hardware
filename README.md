@@ -11,18 +11,18 @@ The neotron aims to bring the retro computing feel, with DOS and BASIC like envi
 
 The Neotron 1000 is a Pi form factor SBC with a Cortex M7 CPU core. The neotron is set apart from other Pi like devices in that it is designed for realtime applications and has not been designed with running a UNIX alike OS in mind. The neotron was is brainchild of @thejpster and @IGBC and is primarily designed with the goals of expanding the world of embedded Rust development and Rust OS development. Retro computer design provides a compelling platform for testing out modern hardware, as many of the challenges of bringing Fast paced 90's style gaming experiances to a modern Hi Res Display (while trivial for a modern computer) can really stress the limits of what can be acheived with contemporary embedded hardware. 
 
-## The hardware:
+## Hardware
 
-**CPU:** STMicroelectronics H7 Series CPU 400MHz
-**Memory:** 8MB DRAM
-**GPU:** Lattice ICE40 Series Soft Core (Hardware Accelerated Rendering)
-**GPU RAM:** 16MB SRAM
-**Storage:** SD Card Slot
-**Network:** Base 10T Ethernet
-**USB:** 2x USB2 High speed host ports 
-**Audio:** Line Out / In Combo Jack
-**Video:** Dual HDMI (1 CPU, 1 GPU)
-**Other IO:** PS2 Keyboard/Mouse Port, Pi compatible Hat Connector (40 pin)
-**Mechanical Form Factor:** Raspberry Pi 4B
+  - **CPU:** STMicroelectronics H7 Series CPU 400MHz
+  - **Memory:** 8MB DRAM
+  - **GPU:** Lattice ICE40 Series Soft Core (Hardware Accelerated Rendering)
+  - **GPU RAM:** 16MB SRAM
+  - **Storage:** SD Card Slot
+  - **Network:** Base 10T Ethernet
+  - **USB:** 2x USB2 High speed host ports 
+  - **Audio:** Line Out / In Combo Jack
+  - **Video:** Dual HDMI (1 CPU, 1 GPU)
+  - **Other IO:** PS2 Keyboard/Mouse Port, Pi compatible Hat Connector (40 pin)
+  - **Mechanical Form Factor:** Raspberry Pi 4B
 
 
