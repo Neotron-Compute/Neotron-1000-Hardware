@@ -1,5 +1,5 @@
 # Neotron 1000
-##A contemporary modern computer. 
+## A contemporary modern computer. 
 
 The Neotron 1000 brings modern low power hardware to retro design. Our tech is based on the tried and true single board ARM computer model offering a hacker friendly platform for your retro project. 
 
