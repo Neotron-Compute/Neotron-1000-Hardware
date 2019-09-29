@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Device)(type Legacy)(uri ${KIPRJMOD}/lib/Device.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/lib/power.lib)(options "")(descr ""))
+  (lib (name pspice)(type Legacy)(uri ${KIPRJMOD}/lib/pspice.lib)(options "")(descr ""))
+)
