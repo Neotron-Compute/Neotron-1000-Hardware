@@ -1,0 +1,17 @@
+FMC -> SDRAM1 @ 11/8 bits -> SDRAM
+LTDC -> RGB888 -> HDMI
+SPI1 -> EGPU
+I2C1 -> Internal Bus
+I2S3 -> Audio Bus
+SCMMC1 -> 4Bit Bus -> SD Card
+SPI2 -> External Ethernet
+USART2 -> DEBUG
+SWD -> DEBUG
+USB_FS -> USB_C Device
+USB_HS -> USB HUB
+4x GPIO -> PS/2
+
+I2C4 -> Header
+SPI4 -> Header
+USART3 -> Header
+19x GPIO -> Header
