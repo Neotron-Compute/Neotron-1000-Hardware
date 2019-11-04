@@ -664,43 +664,43 @@ Text Label 5850 5600 0    50   ~ 0
 ~ETH_INT
 Text Label 5850 7200 0    50   ~ 0
 GPU_INT
-Text Label 11750 11950 0    50   ~ 0
+Text Label 1650 2100 2    50   ~ 0
 HEADER_01
-Text Label 11750 12050 0    50   ~ 0
+Text Label 2150 2100 0    50   ~ 0
 HEADER_02
-Text Label 11750 12150 0    50   ~ 0
+Text Label 1650 2200 2    50   ~ 0
 HEADER_03
-Text Label 11750 12250 0    50   ~ 0
+Text Label 1650 2300 2    50   ~ 0
 HEADER_04
-Text Label 11750 12350 0    50   ~ 0
+Text Label 2150 2300 0    50   ~ 0
 HEADER_05
-Text Label 11750 12450 0    50   ~ 0
+Text Label 2150 2400 0    50   ~ 0
 HEADER_06
-Text Label 11750 12550 0    50   ~ 0
+Text Label 2150 2600 0    50   ~ 0
 HEADER_07
-Text Label 11750 11850 0    50   ~ 0
+Text Label 1650 1900 2    50   ~ 0
 HEADER_00
-Text Label 11750 12650 0    50   ~ 0
+Text Label 2150 2700 0    50   ~ 0
 HEADER_08
-Text Label 11750 12750 0    50   ~ 0
+Text Label 2150 2800 0    50   ~ 0
 HEADER_09
-Text Label 12250 11850 0    50   ~ 0
+Text Label 1650 3000 2    50   ~ 0
 HEADER_10
-Text Label 12250 11950 0    50   ~ 0
+Text Label 1650 3100 2    50   ~ 0
 HEADER_11
-Text Label 12250 12050 0    50   ~ 0
+Text Label 2150 3100 0    50   ~ 0
 HEADER_12
-Text Label 12250 12150 0    50   ~ 0
+Text Label 1650 3200 2    50   ~ 0
 HEADER_13
-Text Label 12250 12250 0    50   ~ 0
+Text Label 1650 3300 2    50   ~ 0
 HEADER_14
-Text Label 12250 12350 0    50   ~ 0
+Text Label 2150 3300 0    50   ~ 0
 HEADER_15
-Text Label 12250 12450 0    50   ~ 0
+Text Label 1650 3400 2    50   ~ 0
 HEADER_16
-Text Label 12250 12550 0    50   ~ 0
+Text Label 2150 3400 0    50   ~ 0
 HEADER_17
-Text Label 12250 12650 0    50   ~ 0
+Text Label 2150 3500 0    50   ~ 0
 HEADER_18
 Text Label 5850 2500 0    50   ~ 0
 HEADER_01
@@ -1015,4 +1015,163 @@ F 3 "" H 4150 8600 50  0001 C CNN
 	1    4150 8600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5DC24F38
+P 1850 2500
+F 0 "J?" H 1900 3617 50  0000 C CNN
+F 1 "HEADER" H 1900 3526 50  0000 C CNN
+F 2 "" H 1850 2500 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 2900
+NoConn ~ 1650 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4AF6B
+P 1650 3500
+F 0 "#PWR?" H 1650 3250 50  0001 C CNN
+F 1 "GND" V 1650 3300 50  0000 C CNN
+F 2 "" H 1650 3500 50  0001 C CNN
+F 3 "" H 1650 3500 50  0001 C CNN
+	1    1650 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4B37B
+P 2150 3200
+F 0 "#PWR?" H 2150 2950 50  0001 C CNN
+F 1 "GND" V 2150 3000 50  0000 C CNN
+F 2 "" H 2150 3200 50  0001 C CNN
+F 3 "" H 2150 3200 50  0001 C CNN
+	1    2150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4B92F
+P 2150 3000
+F 0 "#PWR?" H 2150 2750 50  0001 C CNN
+F 1 "GND" V 2150 2800 50  0000 C CNN
+F 2 "" H 2150 3000 50  0001 C CNN
+F 3 "" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4BF75
+P 1650 2800
+F 0 "#PWR?" H 1650 2550 50  0001 C CNN
+F 1 "GND" V 1650 2600 50  0000 C CNN
+F 2 "" H 1650 2800 50  0001 C CNN
+F 3 "" H 1650 2800 50  0001 C CNN
+	1    1650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4C2C4
+P 1650 2000
+F 0 "#PWR?" H 1650 1750 50  0001 C CNN
+F 1 "GND" V 1650 1800 50  0000 C CNN
+F 2 "" H 1650 2000 50  0001 C CNN
+F 3 "" H 1650 2000 50  0001 C CNN
+	1    1650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4DA01
+P 2150 2500
+F 0 "#PWR?" H 2150 2250 50  0001 C CNN
+F 1 "GND" V 2150 2300 50  0000 C CNN
+F 2 "" H 2150 2500 50  0001 C CNN
+F 3 "" H 2150 2500 50  0001 C CNN
+	1    2150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4DDE5
+P 2150 2200
+F 0 "#PWR?" H 2150 1950 50  0001 C CNN
+F 1 "GND" V 2150 2000 50  0000 C CNN
+F 2 "" H 2150 2200 50  0001 C CNN
+F 3 "" H 2150 2200 50  0001 C CNN
+	1    2150 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC4E165
+P 2150 1800
+F 0 "#PWR?" H 2150 1550 50  0001 C CNN
+F 1 "GND" V 2150 1600 50  0000 C CNN
+F 2 "" H 2150 1800 50  0001 C CNN
+F 3 "" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5DC4E9A0
+P 2150 1700
+F 0 "#PWR?" H 2150 1550 50  0001 C CNN
+F 1 "VBUS" V 2150 1900 50  0000 C CNN
+F 2 "" H 2150 1700 50  0001 C CNN
+F 3 "" H 2150 1700 50  0001 C CNN
+	1    2150 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5DC4F818
+P 2150 1600
+F 0 "#PWR?" H 2150 1450 50  0001 C CNN
+F 1 "VBUS" V 2150 1800 50  0000 C CNN
+F 2 "" H 2150 1600 50  0001 C CNN
+F 3 "" H 2150 1600 50  0001 C CNN
+	1    2150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DC504C5
+P 1650 1600
+F 0 "#PWR?" H 1650 1450 50  0001 C CNN
+F 1 "VCC" V 1650 1800 50  0000 C CNN
+F 2 "" H 1650 1600 50  0001 C CNN
+F 3 "" H 1650 1600 50  0001 C CNN
+	1    1650 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DC520AB
+P 1650 2400
+F 0 "#PWR?" H 1650 2250 50  0001 C CNN
+F 1 "VCC" V 1650 2600 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	0    -1   -1   0   
+$EndComp
+Text Label 2150 1900 0    50   ~ 0
+HEADER_UART_TX
+Text Label 2150 2000 0    50   ~ 0
+HEADER_UART_RX
+Text Label 1650 1800 2    50   ~ 0
+I2C_HEADER_SCL
+Text Label 1650 1700 2    50   ~ 0
+I2C_HEADER_SDA
+Text Label 1650 2700 2    50   ~ 0
+HEADER_SPI_SCK
+Text Label 1650 2600 2    50   ~ 0
+HEADER_SPI_MISO
+Text Label 1650 2500 2    50   ~ 0
+HEADER_SPI_MOSI
 $EndSCHEMATC
