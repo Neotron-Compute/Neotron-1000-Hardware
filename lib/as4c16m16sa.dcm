@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS4C16M16SA
+D 256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TFBGA 54pin
+K SDRAM Synchronus DRAM PC166 PC143 256Mb 16Mbx16 MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/dram/256Mb-AS4C16M16SA-C&I_V3.0_March%202015.pdf
+$ENDCMP
+#
+#End Doc Library

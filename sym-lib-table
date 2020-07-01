@@ -2,4 +2,5 @@
   (lib (name Device)(type Legacy)(uri ${KIPRJMOD}/lib/Device.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KIPRJMOD}/lib/power.lib)(options "")(descr ""))
   (lib (name pspice)(type Legacy)(uri ${KIPRJMOD}/lib/pspice.lib)(options "")(descr ""))
+  (lib (name as4c16m16sa)(type Legacy)(uri ${KIPRJMOD}/lib/as4c16m16sa.lib)(options "")(descr ""))
 )
